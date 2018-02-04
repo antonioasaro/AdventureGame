@@ -42,8 +42,8 @@ public class PlayerMovement : MonoBehaviour
         playerSaveData.Load(startingPositionKey, ref startingPositionName);
         Transform startingPosition = StartingPosition.FindStartingPosition(startingPositionName);
 
-        transform.position = startingPosition.position;
-        transform.rotation = startingPosition.rotation;
+////        transform.position = startingPosition.position;
+////        transform.rotation = startingPosition.rotation;
 
         destinationPosition = transform.position;
     }
